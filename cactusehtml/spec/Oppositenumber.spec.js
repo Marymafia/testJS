@@ -9,7 +9,7 @@ describe('opposite should return opposite number', () =>{
     expect(opposite(-10)).toBe(10)
   })
   test(' sum of positive numbers',  () =>{
-    expect(opposite()).toBe(undefined)
+    expect(opposite()).toBe(NaN)
   })
   test(' positive numbers',  () =>{
     expect(opposite(3.5)).toBe(-3.5)
